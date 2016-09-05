@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D0C70ED1D7D369200B20C45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C70EC1D7D369200B20C45 /* main.m */; };
+		8D0C70F01D7D369200B20C45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C70EF1D7D369200B20C45 /* AppDelegate.m */; };
+		8D0C70F31D7D369200B20C45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C70F21D7D369200B20C45 /* ViewController.m */; };
+		8D0C70F61D7D369200B20C45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0C70F41D7D369200B20C45 /* Main.storyboard */; };
+		8D0C70F81D7D369200B20C45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D0C70F71D7D369200B20C45 /* Assets.xcassets */; };
+		8D0C70FB1D7D369200B20C45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0C70F91D7D369200B20C45 /* LaunchScreen.storyboard */; };
+		8D0C71061D7D36DB00B20C45 /* HSPullDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C71051D7D36DB00B20C45 /* HSPullDownMenu.m */; };
+		8D0C71091D7D36EC00B20C45 /* HSMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C71081D7D36EC00B20C45 /* HSMenuButton.m */; };
+		8D0C710D1D7D36FB00B20C45 /* HSAllCourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C710B1D7D36FB00B20C45 /* HSAllCourseViewController.m */; };
+		8D0C710E1D7D36FB00B20C45 /* HSAllCourseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D0C710C1D7D36FB00B20C45 /* HSAllCourseViewController.xib */; };
+		8D0C71121D7D370600B20C45 /* YZMoreMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C71101D7D370600B20C45 /* YZMoreMenuViewController.m */; };
+		8D0C71131D7D370600B20C45 /* YZMoreMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D0C71111D7D370600B20C45 /* YZMoreMenuViewController.xib */; };
+		8D0C71161D7D370F00B20C45 /* YZMoreMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C71151D7D370F00B20C45 /* YZMoreMenuCell.m */; };
+		8D0C711A1D7D371800B20C45 /* HSSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C71191D7D371800B20C45 /* HSSortViewController.m */; };
+		8D0C711D1D7D371E00B20C45 /* HSSortCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C711C1D7D371E00B20C45 /* HSSortCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D0C70E81D7D369200B20C45 /* HSPullDownMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSPullDownMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0C70EC1D7D369200B20C45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D0C70EE1D7D369200B20C45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D0C70EF1D7D369200B20C45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D0C70F11D7D369200B20C45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8D0C70F21D7D369200B20C45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D0C70F51D7D369200B20C45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D0C70F71D7D369200B20C45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D0C70FA1D7D369200B20C45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D0C70FC1D7D369200B20C45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D0C71041D7D36DB00B20C45 /* HSPullDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPullDownMenu.h; sourceTree = "<group>"; };
+		8D0C71051D7D36DB00B20C45 /* HSPullDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSPullDownMenu.m; sourceTree = "<group>"; };
+		8D0C71071D7D36EC00B20C45 /* HSMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSMenuButton.h; sourceTree = "<group>"; };
+		8D0C71081D7D36EC00B20C45 /* HSMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSMenuButton.m; sourceTree = "<group>"; };
+		8D0C710A1D7D36FB00B20C45 /* HSAllCourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSAllCourseViewController.h; sourceTree = "<group>"; };
+		8D0C710B1D7D36FB00B20C45 /* HSAllCourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSAllCourseViewController.m; sourceTree = "<group>"; };
+		8D0C710C1D7D36FB00B20C45 /* HSAllCourseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HSAllCourseViewController.xib; sourceTree = "<group>"; };
+		8D0C710F1D7D370600B20C45 /* YZMoreMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZMoreMenuViewController.h; sourceTree = "<group>"; };
+		8D0C71101D7D370600B20C45 /* YZMoreMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZMoreMenuViewController.m; sourceTree = "<group>"; };
+		8D0C71111D7D370600B20C45 /* YZMoreMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YZMoreMenuViewController.xib; sourceTree = "<group>"; };
+		8D0C71141D7D370F00B20C45 /* YZMoreMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZMoreMenuCell.h; sourceTree = "<group>"; };
+		8D0C71151D7D370F00B20C45 /* YZMoreMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZMoreMenuCell.m; sourceTree = "<group>"; };
+		8D0C71171D7D371800B20C45 /* UIView+YZCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YZCategory.h"; sourceTree = "<group>"; };
+		8D0C71181D7D371800B20C45 /* HSSortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSSortViewController.h; sourceTree = "<group>"; };
+		8D0C71191D7D371800B20C45 /* HSSortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSSortViewController.m; sourceTree = "<group>"; };
+		8D0C711B1D7D371E00B20C45 /* HSSortCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSSortCell.h; sourceTree = "<group>"; };
+		8D0C711C1D7D371E00B20C45 /* HSSortCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSSortCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D0C70E51D7D369200B20C45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D0C70DF1D7D369200B20C45 = {
+			isa = PBXGroup;
+			children = (
+				8D0C70EA1D7D369200B20C45 /* HSPullDownMenuDemo */,
+				8D0C70E91D7D369200B20C45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D0C70E91D7D369200B20C45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D0C70E81D7D369200B20C45 /* HSPullDownMenuDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D0C70EA1D7D369200B20C45 /* HSPullDownMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8D0C71031D7D36C700B20C45 /* HSPullMenu */,
+				8D0C71021D7D36C700B20C45 /* Example */,
+				8D0C70EE1D7D369200B20C45 /* AppDelegate.h */,
+				8D0C70EF1D7D369200B20C45 /* AppDelegate.m */,
+				8D0C70F11D7D369200B20C45 /* ViewController.h */,
+				8D0C70F21D7D369200B20C45 /* ViewController.m */,
+				8D0C70F41D7D369200B20C45 /* Main.storyboard */,
+				8D0C70F71D7D369200B20C45 /* Assets.xcassets */,
+				8D0C70F91D7D369200B20C45 /* LaunchScreen.storyboard */,
+				8D0C70FC1D7D369200B20C45 /* Info.plist */,
+				8D0C70EB1D7D369200B20C45 /* Supporting Files */,
+			);
+			path = HSPullDownMenuDemo;
+			sourceTree = "<group>";
+		};
+		8D0C70EB1D7D369200B20C45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D0C70EC1D7D369200B20C45 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D0C71021D7D36C700B20C45 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				8D0C711B1D7D371E00B20C45 /* HSSortCell.h */,
+				8D0C711C1D7D371E00B20C45 /* HSSortCell.m */,
+				8D0C71171D7D371800B20C45 /* UIView+YZCategory.h */,
+				8D0C71181D7D371800B20C45 /* HSSortViewController.h */,
+				8D0C71191D7D371800B20C45 /* HSSortViewController.m */,
+				8D0C71141D7D370F00B20C45 /* YZMoreMenuCell.h */,
+				8D0C71151D7D370F00B20C45 /* YZMoreMenuCell.m */,
+				8D0C710F1D7D370600B20C45 /* YZMoreMenuViewController.h */,
+				8D0C71101D7D370600B20C45 /* YZMoreMenuViewController.m */,
+				8D0C71111D7D370600B20C45 /* YZMoreMenuViewController.xib */,
+				8D0C710A1D7D36FB00B20C45 /* HSAllCourseViewController.h */,
+				8D0C710B1D7D36FB00B20C45 /* HSAllCourseViewController.m */,
+				8D0C710C1D7D36FB00B20C45 /* HSAllCourseViewController.xib */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		8D0C71031D7D36C700B20C45 /* HSPullMenu */ = {
+			isa = PBXGroup;
+			children = (
+				8D0C71071D7D36EC00B20C45 /* HSMenuButton.h */,
+				8D0C71081D7D36EC00B20C45 /* HSMenuButton.m */,
+				8D0C71041D7D36DB00B20C45 /* HSPullDownMenu.h */,
+				8D0C71051D7D36DB00B20C45 /* HSPullDownMenu.m */,
+			);
+			path = HSPullMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D0C70E71D7D369200B20C45 /* HSPullDownMenuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D0C70FF1D7D369200B20C45 /* Build configuration list for PBXNativeTarget "HSPullDownMenuDemo" */;
+			buildPhases = (
+				8D0C70E41D7D369200B20C45 /* Sources */,
+				8D0C70E51D7D369200B20C45 /* Frameworks */,
+				8D0C70E61D7D369200B20C45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HSPullDownMenuDemo;
+			productName = HSPullDownMenuDemo;
+			productReference = 8D0C70E81D7D369200B20C45 /* HSPullDownMenuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D0C70E01D7D369200B20C45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Neusoft;
+				TargetAttributes = {
+					8D0C70E71D7D369200B20C45 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 8D0C70E31D7D369200B20C45 /* Build configuration list for PBXProject "HSPullDownMenuDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D0C70DF1D7D369200B20C45;
+			productRefGroup = 8D0C70E91D7D369200B20C45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D0C70E71D7D369200B20C45 /* HSPullDownMenuDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D0C70E61D7D369200B20C45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0C70FB1D7D369200B20C45 /* LaunchScreen.storyboard in Resources */,
+				8D0C70F81D7D369200B20C45 /* Assets.xcassets in Resources */,
+				8D0C710E1D7D36FB00B20C45 /* HSAllCourseViewController.xib in Resources */,
+				8D0C70F61D7D369200B20C45 /* Main.storyboard in Resources */,
+				8D0C71131D7D370600B20C45 /* YZMoreMenuViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D0C70E41D7D369200B20C45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0C710D1D7D36FB00B20C45 /* HSAllCourseViewController.m in Sources */,
+				8D0C71061D7D36DB00B20C45 /* HSPullDownMenu.m in Sources */,
+				8D0C711D1D7D371E00B20C45 /* HSSortCell.m in Sources */,
+				8D0C70F31D7D369200B20C45 /* ViewController.m in Sources */,
+				8D0C711A1D7D371800B20C45 /* HSSortViewController.m in Sources */,
+				8D0C71121D7D370600B20C45 /* YZMoreMenuViewController.m in Sources */,
+				8D0C70F01D7D369200B20C45 /* AppDelegate.m in Sources */,
+				8D0C71091D7D36EC00B20C45 /* HSMenuButton.m in Sources */,
+				8D0C71161D7D370F00B20C45 /* YZMoreMenuCell.m in Sources */,
+				8D0C70ED1D7D369200B20C45 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D0C70F41D7D369200B20C45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D0C70F51D7D369200B20C45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D0C70F91D7D369200B20C45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D0C70FA1D7D369200B20C45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D0C70FD1D7D369200B20C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D0C70FE1D7D369200B20C45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D0C71001D7D369200B20C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HSPullDownMenuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neusoft.HSPullDownMenuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D0C71011D7D369200B20C45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HSPullDownMenuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neusoft.HSPullDownMenuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D0C70E31D7D369200B20C45 /* Build configuration list for PBXProject "HSPullDownMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0C70FD1D7D369200B20C45 /* Debug */,
+				8D0C70FE1D7D369200B20C45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D0C70FF1D7D369200B20C45 /* Build configuration list for PBXNativeTarget "HSPullDownMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0C71001D7D369200B20C45 /* Debug */,
+				8D0C71011D7D369200B20C45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D0C70E01D7D369200B20C45 /* Project object */;
+}
